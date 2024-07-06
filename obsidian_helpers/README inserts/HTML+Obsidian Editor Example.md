@@ -1,4 +1,6 @@
 
+%% #graph-hide %%
+
 > [!important]
 > This issue ONLY occurs when editing within Obsidian.
 

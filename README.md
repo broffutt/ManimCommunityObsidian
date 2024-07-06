@@ -3,10 +3,22 @@
 This is an attempt to exhaustively build associations to all resources
 accessed by [manim](https://github.com/ManimCommunity/manim) Community Edition.
 
+> [!tip]- Tip for Browsing the files
 I'd recommend utilizing the "Outline" feature of Obsidian.\
 If you aren't familiar with it, it is the list icon in the top right, but you
 can also toggle it via `CTRL+P` and search "Outline".\
-(Discord has a similar feature)
+(GitHub has a similar feature)
+
+> [!tip]- Tips for the Graph
+> Filter:
+> 1. Search: `-tag:#graph-hide `
+> 2. Show Tags
+> 3. Hide Orphans
+> 
+> Forces:
+> 1. Repel Force: 15
+> 2. Link Force: 1 (max)
+> 3. Link Distance: 30 (min)
 
 > [!note]-
 > Files/Directories that begin with `.` (i.e., `.github`, [[_.pre-commit-comfig.yaml|.pre-commit-comfig.yaml]])

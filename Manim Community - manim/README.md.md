@@ -1,3 +1,6 @@
+
+%% #graph-hide %%
+
 > [!important]+
 > This page is pulled directly from the [ManimCommunity/manim](https://github.com/ManimCommunity/manim) README.md
 > and modified slightly so that it renders well within Obsidian

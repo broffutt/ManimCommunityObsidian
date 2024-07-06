@@ -1,4 +1,6 @@
 
+%% #graph-hide %%
+
 ## Table of Contents
 
 - [[#Manim Source Reference]]
