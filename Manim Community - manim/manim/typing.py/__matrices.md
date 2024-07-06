@@ -1,3 +1,6 @@
+
+%% #manim-typing %%
+
 ## Matrix Data Types
 
 ```python

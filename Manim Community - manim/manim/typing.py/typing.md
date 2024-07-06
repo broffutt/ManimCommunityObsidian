@@ -1,4 +1,6 @@
 
+%% #manim-typing %%
+
 ![[Callouts#^manim-source-ref]]
 
 ## Docstring

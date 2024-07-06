@@ -1,3 +1,6 @@
+
+%% #manim-typing %%
+
 ## Function Data Types
 
 ```python

@@ -1,3 +1,6 @@
+
+%% #manim-typing %%
+
 ## Image Data Types
 
 ```python

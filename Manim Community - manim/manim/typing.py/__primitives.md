@@ -1,4 +1,6 @@
 
+%% #manim-typing %%
+
 ## Primitive Data Types
 
 ```python

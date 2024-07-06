@@ -10,4 +10,10 @@
 > [ManimCommunity/manim](https://github.com/ManimCommunity/manim/) repository
 ^manim-source-ref
 
+## \_\_init__.py
 
+> [!info]+
+> This file is blank and is used for module importation.
+> 
+> See [python.org](https://docs.python.org/3/tutorial/modules.html#packages)
+^manim-BlankInit-pyorg

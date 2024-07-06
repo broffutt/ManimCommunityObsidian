@@ -1,3 +1,6 @@
+
+%% #manim-typing %%
+
 ## Vector Data Types
 
 ```python

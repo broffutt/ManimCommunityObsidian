@@ -1,4 +1,6 @@
 
+%% #manim-typing %%
+
 ## Path Data Types
 
 ```python

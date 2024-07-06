@@ -1,4 +1,6 @@
 
+%% #manim-typing %%
+
 ## Bézier Data Types
 
 ```python

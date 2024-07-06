@@ -1,4 +1,6 @@
 
+%% #manim-typing %%
+
 ## Point Data Types
 
 ```python

@@ -1,4 +1,6 @@
 
+%% #manim-typing %%
+
 ## Color Data Types
 
 ```python
