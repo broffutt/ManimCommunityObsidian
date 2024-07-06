@@ -1,16 +1,24 @@
 # ManimCommunity Obsidian
 
-This is an attempt to exhaustively build associations to all resources accessed by [manim](https://github.com/ManimCommunity/manim) Community Edition.
+This is an attempt to exhaustively build associations to all resources accessed by [manim](https://github.com/ManimCommunity/manim)
+Community Edition.
+
+> [!note]-
+> Files/Directories that begin with `.` (i.e., `.github`, [[_.pre-commit-comfig.yaml|.pre-commit-comfig.yaml]])
+> Are prepended by `_` as the `.` prefix is not allowed within Obsidian.
 
 ### Resources:
 
 * 3Blue1Brown (by Grant Sanderson)
 	* [YouTube](https://www.youtube.com/@3blue1brown)
-		* [Follow Your Dreams](https://youtu.be/W3I3kAg2J7w?si=0nyLJcSJ1J3mPgDz)
+		* [Follow Your Dreams](https://youtu.be/W3I3kAg2J7w?si=0nyLJcSJ1J3mPgDz) (You should definitely watch this)
 	* [Website](https://www.3blue1brown.com/)
 	* [Patreon](https://www.patreon.com/3blue1brown)
 * ManimCommunity
+	* [Website Homepage](https://www.manim.community/)
+		* [Documentation Site](https://docs.manim.community/en/stable/)
 	* [GitHub Org Page](https://github.com/ManimCommunity/)
 	* [manim Repository](https://github.com/ManimCommunity/manim)
-	* [Documentation Site](https://docs.manim.community/en/stable/installation.html)
-	* [Discord]
+	* [Discord](https://www.manim.community/discord/)
+
+
