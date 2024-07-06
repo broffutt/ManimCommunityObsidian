@@ -6,40 +6,75 @@
       {
         "id": "ddd3fc8a2aa440e0",
         "type": "tabs",
+        "dimension": 57.122093023255815,
         "children": [
           {
             "id": "2823dbdbf6b23332",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Manim Community - manim/_.codecov.yml.md",
+                "file": "Manim Community - manim/manim/utils/typing.py/typing.md",
                 "mode": "source",
                 "source": false
-              }
-            },
-            "group": "9bdd69a32e544d9c"
-          }
-        ]
-      },
-      {
-        "id": "b3ff5b8b4fed14d3",
-        "type": "tabs",
-        "children": [
+              },
+              "pinned": true
+            }
+          },
           {
-            "id": "117127e8dee08a1d",
+            "id": "8dd86a43dd89ee65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Manim Community - manim/_.codecov.yml.md",
-                "mode": "preview",
+                "file": "Manim Community - manim/manim/utils/typing.py/typing.md",
+                "mode": "source",
+                "backlinks": false,
                 "source": false
               }
-            },
-            "group": "9bdd69a32e544d9c"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "97396ed8b8e0e38a",
+        "type": "split",
+        "dimension": 42.877906976744185,
+        "children": [
+          {
+            "id": "efebc9107219418b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "689ca5e6e62cd010",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "pinned": true
+                }
+              }
+            ]
+          },
+          {
+            "id": "a598af0e6cbd2f32",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2d51b34f031c36b1",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -105,8 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Manim Community - manim/_.codecov.yml.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -122,7 +156,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Manim Community - manim/_.codecov.yml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,22 +171,12 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "2d51b34f031c36b1",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Manim Community - manim/_.codecov.yml.md"
-              }
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,43 +188,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2823dbdbf6b23332",
+  "active": "689ca5e6e62cd010",
   "lastOpenFiles": [
-    "Manim Community - manim/_.dockerignore.md",
-    "Manim Community - manim/crowdin.yml.md",
-    "Manim Community - manim/CITATION.cff.md",
-    "Manim Community - manim/_.pylintrc.md",
-    "Manim Community - manim/_.codespell_ignorewords.md",
-    "Manim Community - manim/_.codecov.yml.md",
-    "Manim Community - manim/_.codespellrc.md",
-    "Manim Community - manim/_.flake8.md",
-    "Manim Community - manim/_.git-blame-ignore-revs.md",
-    "Manim Community - manim/_.gitattributes.md",
-    "Manim Community - manim/_.gitignore.md",
-    "Manim Community - manim/_.pre-commit-comfig.yaml.md",
-    "Manim Community - manim/_.readthedocs.yml.md",
-    "Manim Dependencies/Development-related/graphviz",
-    "Manim Dependencies/Development-related/libpango1.0-dev",
-    "Manim Dependencies/Development-related",
-    "Manim Community - manim/CONTRIBUTING.md.md",
-    "Manim Community - manim/conftest.py.md",
-    "Manim Community - manim/CODE_OF_CONDUCT.md.md",
-    "Manim Dependencies",
-    "Manim Community - manim/LICENSE.md",
-    "Manim Community - manim/lgtm.yml.md",
-    "Manim Community - manim/LICENSE.community.md",
+    "Manim Community - manim/manim/utils/typing.py/typing.md",
+    "Manim Community - manim/manim/utils/typing.py/README.md",
+    "Manim Community - manim/manim/utils/typing.py/__init__.py.md",
+    "Manim Community - manim/manim/utils/typing.py/__colors.md",
+    "Manim Community - manim/manim/utils/typing.py/__paths.md",
+    "Manim Community - manim/manim/utils/typing.py/__images.md",
+    "Manim Community - manim/manim/utils/typing.py/__functions.md",
     "README.md",
-    "Manim Dependencies/pytest",
-    "Manim Dependencies/moderngl",
-    "Manim Dependencies/cairo",
-    "Manim Community - manim/mypy.ini.md",
-    "obsidian_helpers/README.md",
-    "Manim Community - manim/poetry.lock.md",
-    "Manim Community - manim/pyproject.toml.md",
+    "Manim Dependencies/typing_extensions",
+    "Manim Dependencies/Untitled.md",
+    "Manim Dependencies/os",
+    "obsidian_helpers/Callouts.md",
+    "Manim Community - manim/manim/utils/typing.py/__primitives.md",
+    "Manim Community - manim/manim/utils/typing.py/__points.md",
+    "Manim Community - manim/manim/utils/typing.py/__vectors.md",
+    "Manim Community - manim/manim/utils/typing.py/__matrices.md",
+    "Manim Community - manim/manim/utils/typing.py/__bézier.md",
     "Manim Community - manim/README.md.md",
-    "obsidian_helpers/README inserts/manim-description-heading.md",
-    "obsidian_helpers/README inserts",
-    "obsidian_helpers",
-    "Manim Community - manim/tests"
+    "Manim Community - manim/manim/__main__.py.md",
+    "Manim Community - manim/manim/constants.py.md",
+    "Manim Community - manim/manim/utils/typing.py",
+    "GRAPH.canvas",
+    "Untitled",
+    "Untitled.canvas",
+    "Manim Community - manim/manim/mobject/geometry/line.py/Vector.md",
+    "Manim Community - manim/manim/__init__.py.md",
+    "Manim Community - manim/manim/mobject/three-d/three_dimensions.py/Arrow3D.md",
+    "Untitled 1.canvas",
+    "Manim Community - manim/manim/mobject/geometry/line.py/Arrow.md",
+    "Manim Community - manim/manim/mobject/types/vectorized_mobject.py/VMObject.md",
+    "Manim Community - manim/manim/mobject/three-d/three_dimensions.py",
+    "Manim Community - manim/manim/mobject/three-d",
+    "Manim Community - manim/manim/mobject/types/vectorized_mobject.py",
+    "Manim Community - manim/manim/mobject/types",
+    "Manim Community - manim/_.codespell_ignorewords.md",
+    "Manim Community - manim/manim/mobject/geometry/line/Untitled.md",
+    "obsidian_helpers/Manim Source Reference.md",
+    "obsidian_helpers/Untitled",
+    "Manim Community - manim/manim/mobject/geometry/line.py"
   ]
 }

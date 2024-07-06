@@ -2,5 +2,9 @@
   "showLineNumber": true,
   "newLinkFormat": "shortest",
   "alwaysUpdateLinks": true,
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "useTab": false,
+  "spellcheck": false,
+  "showRibbon": true,
+  "useMarkdownLinks": false
 }

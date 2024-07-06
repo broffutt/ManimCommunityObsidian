@@ -1,7 +1,12 @@
 # ManimCommunity Obsidian
 
-This is an attempt to exhaustively build associations to all resources accessed by [manim](https://github.com/ManimCommunity/manim)
-Community Edition.
+This is an attempt to exhaustively build associations to all resources
+accessed by [manim](https://github.com/ManimCommunity/manim) Community Edition.
+
+I'd recommend utilizing the "Outline" feature of Obsidian.\
+If you aren't familiar with it, it is the list icon in the top right, but you
+can also toggle it via `CTRL+P` and search "Outline".\
+(Discord has a similar feature)
 
 > [!note]-
 > Files/Directories that begin with `.` (i.e., `.github`, [[_.pre-commit-comfig.yaml|.pre-commit-comfig.yaml]])
