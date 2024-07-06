@@ -146,8 +146,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cfd740a45ff096b5",
+  "active": "2823dbdbf6b23332",
   "lastOpenFiles": [
+    "README.md",
     "manimcommunity/README.md.md",
     "manimcommunity/pyproject.toml.md",
     "manimcommunity/poetry.lock.md",
@@ -182,7 +183,6 @@
     "manimcommunity/_.github/workflows",
     "manimcommunity/_.github/scripts",
     "manimcommunity/_.github/PULL_REQUEST_TEMPLATE",
-    "manimcommunity/manim/constants.py.md",
-    "manimcommunity/manim/__main__.py.md"
+    "manimcommunity/manim/constants.py.md"
   ]
 }
