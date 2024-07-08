@@ -96,110 +96,131 @@ __all__ = [
 ```
 ## Messages
 
+### SCENE_NOT_FOUND_MESSAGE
+
 ```python
 # Messages
-SCENE_NOT_FOUND_MESSAGE = """
+SCENE_NOT_FOUND_MESSAGE: str = """
    {} is not in the script
 """
 ```
-^manim-const-SceneNotFoundMessage
+
+### CHOOSE_NUMBER_MESSAGE
 
 ```python
-CHOOSE_NUMBER_MESSAGE = """
+CHOOSE_NUMBER_MESSAGE: str = """
 Choose number corresponding to desired scene/arguments.
 (Use comma separated list for multiple entries)
 Choice(s): """
 ```
-^manim-const-ChooseNumberMessage
+
+### INVALID_NUMBER_MESSAGE
 
 ```python
-INVALID_NUMBER_MESSAGE = "Invalid scene numbers have been specified. Aborting."
+INVALID_NUMBER_MESSAGE: str = "Invalid scene numbers have been specified. Aborting."
 ```
-^manim-const-ChooseNumberMessage
+
+### NO_SCENE_MESSAGE
 
 ```python
-NO_SCENE_MESSAGE = """
+NO_SCENE_MESSAGE: str = """
    There are no scenes inside that module
 """
 ```
-^manim-const-NoSceneMessage
 
 ## Pango related
 
-```python
-# Pango stuff
-NORMAL = "NORMAL"
-```
-^manim-constant-pango-normal
+### NORMAL
 
 ```python
-ITALIC = "ITALIC"
+# Pango stuff
+NORMAL: str = "NORMAL"
+```
+
+### ITALIC
+
+```python
+ITALIC: str = "ITALIC"
 ```
 ^manim-constant-pango-italic
 
-```python
-OBLIQUE = "OBLIQUE"
-```
-^manim-constant-pango-oblique
+### OBLIQUE
 
 ```python
-BOLD = "BOLD"
+OBLIQUE: str = "OBLIQUE"
 ```
-^manim-constant-pango-bold
+
+### BOLD
+
+```python
+BOLD: str = "BOLD"
+```
+
+### THIN
 
 ```python
 # Only for Pango from below
-THIN = "THIN"
+THIN: str = "THIN"
 ```
-^manim-constant-pango-thin
+
+### ULTRALIGHT
 
 ```python
-ULTRALIGHT = "ULTRALIGHT"
+ULTRALIGHT: str = "ULTRALIGHT"
 ```
-^manim-constant-pango-ultralight
+
+### LIGHT
 
 ```python
-LIGHT = "LIGHT"
+LIGHT: str = "LIGHT"
 ```
-^manim-constant-pango-light
+
+### SEMILIGHT
 
 ```python
-SEMILIGHT = "SEMILIGHT"
+SEMILIGHT: str = "SEMILIGHT"
 ```
-^manim-constant-pango-semilight
+
+### BOOK
 
 ```python
-BOOK = "BOOK"
+BOOK: str = "BOOK"
 ```
-^manim-constant-pango-book
+
+### MEDIUM
 
 ```python
-MEDIUM = "MEDIUM"
+MEDIUM: str = "MEDIUM"
 ```
-^manim-constant-pango-medium
+
+### SEMIBOLD
 
 ```python
-SEMIBOLD = "SEMIBOLD"
+SEMIBOLD: str = "SEMIBOLD"
 ```
-^manim-constant-pango-semibold
+
+### ULTRABOLD
 
 ```python
-ULTRABOLD = "ULTRABOLD"
+ULTRABOLD: str = "ULTRABOLD"
 ```
-^manim-constant-pango-ultrabold
+
+### HEAVY
 
 ```python
-HEAVY = "HEAVY"
+HEAVY: str = "HEAVY"
 ```
-^manim-constant-pango-heavy
+
+### ULTRAHEAVY
 
 ```python
-ULTRAHEAVY = "ULTRAHEAVY"
+ULTRAHEAVY: str = "ULTRAHEAVY"
 ```
-^manim-constant-pango-ultraheavy
+
+### RESAMPLING_ALGORITHMS
 
 ```python
-RESAMPLING_ALGORITHMS = {
+RESAMPLING_ALGORITHMS: dict[str, any] = {
     "nearest": Resampling.NEAREST,
     "none": Resampling.NEAREST,
     "lanczos": Resampling.LANCZOS,
@@ -212,202 +233,344 @@ RESAMPLING_ALGORITHMS = {
     "hamming": Resampling.HAMMING,
 }
 ```
-^manim-constant-pango-resamplingalgorithms
+
+#### nearest
+
+```python
+RESAMPLING_ALGORITHMS["nearest"] = Resampling.NEAREST
+```
+
+#### none
+
+```python
+RESAMPLING_ALGORITHMS["none"] = Resampling.NEAREST
+```
+
+#### lanczos
+
+```python
+RESAMPLING_ALGORITHMS["lanczos"] = Resampling.LANCZOS
+```
+
+#### antialias
+
+```python
+RESAMPLING_ALGORITHMS["antialias"] = Resampling.LANCZOS
+```
+
+#### bilinear
+
+```python
+RESAMPLING_ALGORITHMS["bilinear"] = Resampling.BILINEAR
+```
+
+#### linear
+
+```python
+RESAMPLING_ALGORITHMS["nearest"] = Resampling.BILINEAR
+```
+
+#### bicubic
+
+```python
+RESAMPLING_ALGORITHMS["bicubic"] = Resampling.BICUBIC
+```
+
+#### cubic
+
+```python
+RESAMPLING_ALGORITHMS["cubic"] = Resampling.BICUBIC
+```
+
+#### box
+
+```python
+RESAMPLING_ALGORITHMS["box"] = Resampling.BOX
+```
+
+#### hamming
+
+```python
+RESAMPLING_ALGORITHMS["hamming"] = Resampling.HAMMING
+```
 
 ## Geometry
 
+### START_X
+
 ```python
 # Geometry
-START_X = 30
+START_X: int = 30
 ```
-^manim-const-startx
+
+Type: [[Manim Dependencies/python3.12.4/Include/cpython/floatobject.h|float]]
+
+### START_Y
 
 ```python
-START_Y = 20
+START_Y: int = 20
 ```
-^manim-const-starty
+
+Type: [[Manim Dependencies/python3.12.4/Include/cpython/floatobject.h|float]]
+
+### DEFAULT_DOT_RADIUS
 
 ```python
-DEFAULT_DOT_RADIUS = 0.08
+DEFAULT_DOT_RADIUS: float = 0.08
 ```
-^manim-const-DefaultDotRadius
+
+Type: [[Manim Dependencies/python3.12.4/Include/cpython/floatobject.h|float]]
+
+### DEFAULT_SMALL_DOT_RADIUS
 
 ```python
-DEFAULT_SMALL_DOT_RADIUS = 0.04
+DEFAULT_SMALL_DOT_RADIUS: float = 0.04
 ```
-^manim-const-DefaultSmallDotRadius
+
+Type: [[Manim Dependencies/python3.12.4/Include/cpython/floatobject.h|float]]
+
+### DEFAULT_DASH_LENGTH
 
 ```python
-DEFAULT_DASH_LENGTH = 0.05
+DEFAULT_DASH_LENGTH: float = 0.05
 ```
-^manim-const-DefaultDashLength
+
+Type: [[Manim Dependencies/python3.12.4/Include/cpython/floatobject.h|float]]
+
+### DEFAULT_ARROW_TIP_LENGTH
 
 ```python
-DEFAULT_ARROW_TIP_LENGTH = 0.35
+DEFAULT_ARROW_TIP_LENGTH: float = 0.35
 ```
-^manim-const-DefaultArrowTipLength
+
+Type: [[Manim Dependencies/python3.12.4/Include/cpython/floatobject.h|float]]
 
 ### Directions
+
+#### ORIGIN
 
 ```python
 # Geometry: directions
 ORIGIN: Vector3D = np.array((0.0, 0.0, 0.0))
 """The center of the coordinate system."""
 ```
-^manim-const-origin
+
+Type: [[__vectors#Vector3D|Vector3D]]
+
+#### UP
 
 ```python
 UP: Vector3D = np.array((0.0, 1.0, 0.0))
 """One unit step in the positive Y direction."""
 ```
-^manim-const-up
+
+Type: [[__vectors#Vector3D|Vector3D]]
+
+#### DOWN
 
 ```python
 DOWN: Vector3D = np.array((0.0, -1.0, 0.0))
 """One unit step in the negative Y direction."""
 ```
-^manim-const-down
+
+Type: [[__vectors#Vector3D|Vector3D]]
+
+#### RIGHT
 
 ```python
 RIGHT: Vector3D = np.array((1.0, 0.0, 0.0))
 """One unit step in the positive X direction."""
 ```
-^manim-const-right
+
+Type: [[__vectors#Vector3D|Vector3D]]
+
+#### LEFT
 
 ```python
 LEFT: Vector3D = np.array((-1.0, 0.0, 0.0))
 """One unit step in the negative X direction."""
 ```
-^manim-const-left
+
+Type: [[__vectors#Vector3D|Vector3D]]
+
+#### IN
 
 ```python
 IN: Vector3D = np.array((0.0, 0.0, -1.0))
 """One unit step in the negative Z direction."""
 ```
-^manim-const-in
+
+Type: [[__vectors#Vector3D|Vector3D]]
+
+#### OUT
 
 ```python
 OUT: Vector3D = np.array((0.0, 0.0, 1.0))
 """One unit step in the positive Z direction."""
 ```
-^manim-const-out
+
+Type: [[__vectors#Vector3D|Vector3D]]
 
 #### Diagonal Abbreviations
+
+##### UL
 
 ```python
 # Geometry: useful abbreviations for diagonals
 UL: Vector3D = UP + LEFT
 """One step up plus one step left."""
 ```
-^manim-const-ul
+
+Type: [[__vectors#Vector3D|Vector3D]]
+
+##### UR
 
 ```python
 UR: Vector3D = UP + RIGHT
 """One step up plus one step right."""
 ```
-^manim-const-ur
+
+Type: [[__vectors#Vector3D|Vector3D]]
+
+##### UR
 
 ```python
 DL: Vector3D = DOWN + LEFT
 """One step down plus one step left."""
 ```
-^manim-const-dl
+
+Type: [[__vectors#Vector3D|Vector3D]]
+
+##### DR
 
 ```python
 DR: Vector3D = DOWN + RIGHT
 """One step down plus one step right."""
 ```
-^manim-const-dr
+
+Type: [[__vectors#Vector3D|Vector3D]]
 
 ### Axes
+
+#### X_AXIS
 
 ```python
 # Geometry: axes
 X_AXIS: Vector3D = np.array((1.0, 0.0, 0.0))
 ```
-^manim-const-xAxis
+
+Type: [[__vectors#Vector3D|Vector3D]]
+
+#### Y_AXIS
 
 ```python
 Y_AXIS: Vector3D = np.array((0.0, 1.0, 0.0))
 ```
-^manim-const-yAxis
+
+Type: [[__vectors#Vector3D|Vector3D]]
+
+#### Z_AXIS
 
 ```python
 Z_AXIS: Vector3D = np.array((0.0, 0.0, 1.0))
 ```
-^manim-const-zAxis
+
+Type: [[__vectors#Vector3D|Vector3D]]
 
 ## Default Buffers (Padding)
 
+### SMALL_BUFF
+
 ```python
 # Default buffers (padding)
-SMALL_BUFF = 0.1
+SMALL_BUFF: float = 0.1
 ```
-^manim-const-SmallBuff
+
+Type: [[__vectors#Vector3D|Vector3D]]
+
+### MED_SMALL_BUFF
 
 ```python
 MED_SMALL_BUFF = 0.25
 ```
-^manim-const-MedSmallBuff
+
+Type: [[__vectors#Vector3D|Vector3D]]
+
+### MED_LARGE_BUFF
 
 ```python
 MED_LARGE_BUFF = 0.5
 ```
-^manim-const-MedLargeBuff
+
+Type: [[__vectors#Vector3D|Vector3D]]
+
+### LARGE_BUFF
 
 ```python
 LARGE_BUFF = 1
 ```
-^manim-const-LargeBuff
+
+Type: [[__vectors#Vector3D|Vector3D]]
+
+### DEFAULT_MOBJECT_TO_EDGE_BUFFER
 
 ```python
 DEFAULT_MOBJECT_TO_EDGE_BUFFER = MED_LARGE_BUFF
 ```
-^manim-const-DefaultMobjectToEdgeBuffer
+
+### DEFAULT_MOBJECT_TO_MOBJECT_BUFFER
 
 ```python
 DEFAULT_MOBJECT_TO_MOBJECT_BUFFER = MED_SMALL_BUFF
 ```
-^manim-const-DefaultMobjectToMobjectBuffer
+
+### SMALL_BUFF
 
 ## Timings
 
 > [!note]+
 > The timings are in seconds
 
+### DEFAULT_POINTWISE_FUNCTION_RUN_TIME
+
 ```python
 # Times in seconds
 DEFAULT_POINTWISE_FUNCTION_RUN_TIME = 3.0 # seconds
 ```
-^manim-const-DefaultPointwiseFunctionRunTime
+
+### DEFAULT_WAIT_TIME
 
 ```python
 DEFAULT_WAIT_TIME = 1.0 # second
 ```
-^manim-const-DefaultWaitTIme
 
 ## Mathematic
+
+### PI
 
 ```python
 # Mathematical constants
 PI = np.pi
 """The ratio of the circumference of a circle to its diameter."""
 ```
-^manim-const-pi
+
+### TAU
 
 ```python
 TAU = 2 * PI
 """The ratio of the circumference of a circle to its radius."""
 ```
-^manim-const-tau
+
+### DEGREES
 
 ```python
 DEGREES = TAU / 360
 """The exchange rate between radians and degrees."""
 ```
-^manim-const-degrees
 
 ## Video Quality Values
+
+### QUALITIES
 
 ```python
 # Video qualities
@@ -450,55 +613,65 @@ QUALITIES: dict[str, dict[str, str | int | None]] = {
     },
 }
 ```
-^manim-const-qualities
+
+### DEFAULT_QUALITY
 
 ```python
 DEFAULT_QUALITY = "high_quality"
 ```
-^manim-const-DefaultQuality
 
 ## Misc
+
+### DEFAULT_POINT_DENSITY_2D
 
 ```python
 # Misc
 DEFAULT_POINT_DENSITY_2D = 25
 ```
-^manim-const-DefaultPointDensity2D
+
+### DEFAULT_POINT_DENSITY_1D
 
 ```python
 DEFAULT_POINT_DENSITY_1D = 10
 ```
-^manim-const-DefaultPointDensity1D
+
+### DEFAULT_STROKE_WIDTH
 
 ```python
 DEFAULT_STROKE_WIDTH = 4
 ```
-^manim-const-DefaultStrokeWidth
+
+### DEFAULT_FONT_SIZE
 
 ```python
 DEFAULT_FONT_SIZE = 48
 ```
-^manim-const-DefaultStrokeWidth
+
+### SCALE_FACTOR_PER_FONT_POINT
 
 ```python
 SCALE_FACTOR_PER_FONT_POINT = 1 / 960
 ```
-^manim-const-ScaleFactorPerFontPoint
+
+### EPILOG
 
 ```python
 EPILOG = "Made with <3 by Manim Community developers."
 ```
-^manim-const-epilog
+
+### SHIFT_VALUE
 
 ```python
 SHIFT_VALUE = 65505
 ```
-^manim-const-ShiftValue
+
+### CTRL_VALUE
 
 ```python
 CTRL_VALUE = 65507
 ```
-^manim-const-CtrlValue
+
+### CONTEXT_SETTINGS
 
 ```python
 CONTEXT_SETTINGS = Context.settings(
@@ -507,7 +680,6 @@ CONTEXT_SETTINGS = Context.settings(
     show_constraints=True,
 )
 ```
-^manim-const-ContextSettings
 
 ## Enums
 
@@ -534,15 +706,17 @@ class RendererType(Enum):
     OPENGL = "opengl"  #: An OpenGL-based renderer.
 ```
 
+#### CAIRO
+
 ```python
 CAIRO = "cairo"  #: A renderer based on the cairo backend.
 ```
-^manim-const-RendererType-cairo
+
+#### OPENGL
 
 ```python
 OPENGL = "opengl"  #: An OpenGL-based renderer.
 ```
-^manim-const-RendererType-cairo
 
 ### LineJointType
 
@@ -583,25 +757,29 @@ class LineJointType(Enum):
     MITER = 3
 ```
 
+#### AUTO
+
 ```python
 AUTO = 0
 ```
-^manim-const-LineJointType-auto
+
+#### ROUND
 
 ```python
 ROUND = 1
 ```
-^manim-const-LineJointType-round
+
+#### BEVEL
 
 ```python
 BEVEL = 2
 ```
-^manim-const-LineJointType-bevel
+
+#### MITER
 
 ```python
 MITER = 3
 ```
-^manim-const-LineJointType-miter
 
 #### Example
 
@@ -671,25 +849,29 @@ class CapStyleType(Enum):
     SQUARE = 3
 ```
 
+#### CapStyleType.AUTO
+
 ```python
 CapStyleType.AUTO = 0
 ```
-^manim-const-CapStyleType-auto
+
+#### CapStyleType.ROUND
 
 ```python
 CapStyleType.ROUND = 1
 ```
-^manim-const-CapStyleType-round
+
+#### CapStyleType.BUTT
 
 ```python
 CapStyleType.BUTT = 2
 ```
-^manim-const-CapStyleType-butt
+
+#### CapStyleType.SQUARE
 
 ```python
 CapStyleType.SQUARE = 3
 ```
-^manim-const-CapStyleType-square
 
 #### Example
 

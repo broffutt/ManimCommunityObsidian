@@ -5,4 +5,3 @@
 class VMobject(Mobject):
 	...
 ```
-^manim-class-vmobject
